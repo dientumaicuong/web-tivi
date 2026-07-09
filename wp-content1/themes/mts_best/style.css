@@ -1,0 +1,284 @@
+/*
+Theme Name: Best by MyThemeShop
+Theme URI: http://mythemeshop.com/themes/best/
+Author: MyThemeShop
+Author URI: http://mythemeshop.com/
+Description: Best is a pixel perfect, ultra responsive WordPress theme with a beautiful design, fast loading time, SEO optimizations and a built-in review system for writing helpful reviews.
+Version: 2.0.5
+*/
+/*-[ Header ]-----------------------*/
+ .secondary-menu-disabled #header { padding: 0 }
+.header-inner {
+    width: 100%;
+    height: 100%;
+     float: left;
+}
+.logo-wrap, .widget-header {
+    display: table-cell;
+    vertical-align: middle;
+}
+.logo-wrap { width: 33% }
+.widget-header { width: 77% }
+#header h1, #header h2 {
+    font-size: 35px;
+    font-weight: 400;
+    float: left;
+    display: inline-block;
+    line-height: 1;
+    position: relative;
+    margin-bottom: 0;
+}
+#logo a {
+    float: left;
+    line-height: 1;
+}
+#logo img { float: left }
+.site-description {
+    float: left;
+    margin-top: 5px;
+    clear: left;
+}
+/* header add */
+#header .ad-728 { float: right }
+#header .ad-728 img {
+    display: block;
+    width: 100%;
+}
+/*-[ Navigation ]-----------------*/
+#navigation.mobile-only { display: none }
+#navigation .menu-item-has-children > a:after {
+    content: "\f107";
+    font-family: FontAwesome;
+    position: absolute;
+    right: 20px;
+}
+#navigation .menu li {
+    position: relative;
+    list-style: none!important;
+}
+#navigation ul li li {
+    background: #fff;
+    border-bottom: 0;
+}
+#navigation ul ul {
+    position: absolute;
+    width: 285px;
+    padding: 20px 0 0 0;
+    padding-top: 0;
+    font-size: 12px;
+    color: #798189;
+    z-index: 99999;
+}
+#navigation ul ul li {
+    padding: 0;
+    color: #fff;
+    border-right: 0;
+}
+#header nav ul ul > li:first-child { border-top: 1px solid rgba(0, 0, 0, 0.1) }
+#header nav ul ul ul > li:first-child { border-top: 0 }
+#header nav#navigation ul ul li { background: #e52329 }
+#header nav ul ul a, #header nav ul ul a:link, #header nav ul ul a:visited {
+    padding: 6px 8px 6px 8px;
+    color: #fff;
+    position: relative;
+    width: 245px;
+    border-left: 0;
+    background: transparent;
+    border-right: 0;
+    border-radius: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    margin: 0;
+    box-sizing: content-box;
+}
+#header nav ul ul li:last-child a { border-bottom: none }
+#header nav ul ul { display: none }
+#header nav ul ul ul {
+    left: 255px;
+    top: 0;
+}
+#header nav .menu-item-has-children>a, #header nav .page_item_has_children>a { padding-right: 40px }
+#header nav ul li:hover a { color: #fff!important }
+#navigation .menu li, #navigation .menu li a { font-size: 15px }
+#navigation .menu li, #navigation .menu li a { color: #fff }
+#navigation .menu a:hover, #navigation .menu .current-menu-item > a {
+    color: #fff !important;
+    background: rgba(0, 0, 0, 0.1);
+}
+.home #navigation .menu .home-menu-item a, #navigation .menu .current-menu-item > a { background: rgba(0, 0, 0, 0.1) }
+/* bottom header nav */
+.secondary-navigation {
+    float: left;
+    width: 100%;
+    position: relative;
+}
+.secondary-navigation a {
+    color: #fff;
+    text-align: left;
+    text-decoration: none;
+    padding: 16px 17px;
+}
+#navigation {
+    float: left;
+    width: 100%;
+    z-index: 99999;
+}
+#navigation ul { margin: 0 auto }
+#navigation ul li {
+    float: left;
+    line-height: 22px;
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+#navigation ul li a, #navigation ul li a:link, #navigation ul li a:visited { display: inline-block }
+#navigation > ul > .current a {
+    background: transparent;
+    color: #5a5a5a !important;
+}
+.menu .menu-item:not(.home-menu-item) .fa { margin-right: 4px }
+.clearfix:before, .clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after { clear: both }
+.clearfix { *zoom: 1   }
+a#pull { display: none }
+/* Flyout nav */
+
+ 
+
+
+
+
+
+
+#logo a { font-family: 'Roboto'; font-weight: 700; font-size: 36px; color: #3498db;text-transform: uppercase; }
+.menu li, .menu li a { font-family: 'Roboto'; font-weight: normal; font-size: 15px; color: #ffffff; }
+body { font-family: 'Roboto'; font-weight: normal; font-size: 15px; color: #444444; }
+.post-data .post-title a, #comments-tab-content a { font-family: 'Roboto'; font-weight: 700; font-size: 16px; color: #444444;text-transform: uppercase; }
+.hentry .entry-title { font-family: 'Roboto'; font-weight: 700; font-size: 25px; color: #444444;text-transform: uppercase; }
+ 
+        body {background-color:#f6f6f6;background-image:none;}
+        .main-header {background-color:#f6f6f6;background-image:none;}
+        .pace .pace-progress, .mobile-menu-wrapper, .owl-carousel .owl-nav > div, #top-navigation li:hover a, #header nav#top-navigation ul ul li, a#pull, .secondary-navigation, #move-to-top,.mts-subscribe input[type='submit'],input[type='submit'],#commentform input#submit,.contactform #submit,.pagination a,.fs-pagination a,.header-search .ajax-search-results-container,#load-posts a,#fs2_load_more_button,#wp-calendar td a,#wp-calendar caption,#wp-calendar #prev a:before,#wp-calendar #next a:before, .tagcloud a, #tags-tab-content a, #wp-calendar thead th.today, .slide-title, .slidertitle, #header nav#navigation ul ul li, .thecategory a, #wp-calendar td a:hover, #wp-calendar #today, .widget .wpt-pagination a, .widget .wpt_widget_content #tags-tab-content ul li a, .widget .wp_review_tab_widget_content .wp-review-tab-pagination a, .ajax-search-meta .results-link, .post-day .review-total-only, .woocommerce a.button, .woocommerce-page a.button, .woocommerce button.button, .woocommerce-page button.button, .woocommerce input.button, .woocommerce-page input.button, .woocommerce #respond input#submit, .woocommerce-page #respond input#submit, .woocommerce #content input.button, .woocommerce-page #content input.button, .woocommerce nav.woocommerce-pagination ul li a, .woocommerce-page nav.woocommerce-pagination ul li a, .woocommerce #content nav.woocommerce-pagination ul li a, .woocommerce-page #content nav.woocommerce-pagination ul li a, .woocommerce .bypostauthor:after, #searchsubmit, .woocommerce nav.woocommerce-pagination ul li a:hover, .woocommerce-page nav.woocommerce-pagination ul li a:hover, .woocommerce #content nav.woocommerce-pagination ul li a:hover, .woocommerce-page #content nav.woocommerce-pagination ul li a:hover, .woocommerce nav.woocommerce-pagination ul li a:focus, .woocommerce-page nav.woocommerce-pagination ul li a:focus, .woocommerce #content nav.woocommerce-pagination ul li a:focus, .woocommerce-page #content nav.woocommerce-pagination ul li a:focus, .woocommerce a.button, .woocommerce-page a.button, .woocommerce button.button, .woocommerce-page button.button, .woocommerce input.button, .woocommerce-page input.button, .woocommerce #respond input#submit, .woocommerce-page #respond input#submit, .woocommerce #content input.button, .woocommerce-page #content input.button, .widget_product_search input[type='submit'] {background: #1b68aa; color: #fff; }
+        .header-search #s,nav a.toggle-mobile-menu, .tab_widget ul.wps_tabs li, .wpt_widget_content .tab_title.selected a, .widget_wp_review_tab .tab_title.selected a {background: #1b68aa !important;}
+        #wp-calendar thead th.today { border-color: #1b68aa; }
+        a, a:hover,.title a:hover,.post-data .post-title a:hover,.post-title a:hover,.post-info a:hover,.entry-content a,.textwidget a,.reply a,.comm,.fn a,.comment-reply-link, .entry-content .singleleft a:hover, #footer-post-carousel .owl-nav div {color:#1b68aa;}
+        .post-box .review-total-only .review-result-wrapper .review-result i {color:#1b68aa!important;}
+        footer > .footer-carousel-wrap { background: #1b68aa; }
+        
+        .shareit { top: 373px; left: auto; z-index: 0; margin: 0 0 0 -110px; width: 100px; position: fixed; padding: 0; border:none; border-right: 0;}
+        .share-item {margin: 2px;}
+        
+        .bypostauthor .fn:after { content: "Author"; position: absolute; left: 0px; top: 0px; padding: 0px 10px; background: #444; color: #FFF; border-radius: 3px; }
+        
+        
+        .post-single-content-inner { width: 100%; }
+        #site-header {
+    background: #fff;
+}
+ 
+ 
+ 
+ 
+ 
+ #site-header {
+    position: relative;
+    float: left;
+    width: 100%;
+    z-index: 99;
+    background: #fff;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+.single-title {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 30px;
+    color: #2B2B2B;
+}
+#sidebar .widget .widget-title {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 18px;
+    color: #000000;
+    padding-bottom: 5px;
+}
+.widget h3 {
+    font-size: 18px;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 0px;
+}
+
+.single_post a, a:hover, #comments .post-info .theauthor a:hover {
+    color: #ef9b14;
+}
+.header-inner {
+    width: 100%;
+    height: 100%;
+    display: table;
+    padding: 0 0;
+}
+body.home{
+ position:relative;
+}
+.home .main-container #page{
+ position:static;
+}
+
+.home .main-container #parallax{
+    background-position: 0 0 !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 464px;
+    left: 0;
+    padding: 0;
+    position: absolute;
+    right: 0;
+}
+.home .article, .home .sidebar.c-4-12{
+ margin-top:10px;
+}
+.secondary-navigation {
+    margin-bottom: -32px;
+}
+.sidebar.c-4-12 {
+    margin-top: 33px;
+}
+#content_box, .hentry, .hentry header, .hentry .box {
+    margin-top: 0px;
+}
+.postsby {
+    margin-bottom: 25px;
+    margin-top: 34px;
+}
+
+@media screen and (max-width: 768px) {
+ .home .main-container #parallax {background-size: contain; margin-top: 6px;}
+
+@media screen and (max-width: 590px) {
+ .home .main-container #parallax {background-size: contain; margin-top: 6px;}
+@media screen and (max-width: 320px) {
+ .home .main-container #parallax {display: none!important;}
+ .home .main-container .article {margin-top: 25px !important;}
+}
+.pagination {
+  display: inline-block;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 1px solid #ddd;
+  margin: 0 4px;
+}
+
+.pagination a.active {
+  background-color: #4CAF50;
+  color: white;
+  border: 1px solid #4CAF50;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
